@@ -1,0 +1,1 @@
+# AFINet-A-Lightweight-Adaptive-Feature-Interaction-Network-for-Remote-Sensing-Scene-Classification
