@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="SEz_NJPuFCJcp8DqpNX9">
+    <mxGraphModel dx="1144" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-18" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zSBdwBAS_QDjj0wgPVzD-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;fontColor=#ffffff;strokeColor=#6D1F00;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Input Satellite Image&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;3 x 64 x 64&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-19" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zSBdwBAS_QDjj0wgPVzD-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" value="&lt;font face=&quot;Verdana&quot;&gt;Stem&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;Conv 3x3, 32, s=1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;BN + GELU&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;32 x 64 x 64&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="270" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-21" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;STAGE 1&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;32&lt;/font&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;32, s=1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;32 x 64 x 64&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-23" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3399;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;STAGE 2&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Verdana;&quot;&gt;64 x 32 x 32&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;32&lt;/font&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;64, s=2&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-indent: 0px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;64&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;64, s=1&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-24" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="660" />
+              <mxPoint x="505" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF33FF;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;STAGE 3&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;128 x 16 x 16&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="80" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-indent: 0px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;64&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;128, s=2&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-indent: 0px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;128&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;128, s=1&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-25" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9933FF;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;STAGE 4&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;256 x 8 x 8&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="370" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-indent: 0px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;128&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;256, s=2&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;AFIE Block&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-indent: 0px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;256&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Wingdings;&quot;&gt;è&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;256, s=1&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-26" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3333FF;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;Global Average Pooling&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;256 x 1 x 1&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="370" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-28" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Flatten&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;256&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="370" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-29" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FFFF;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Dropout&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;(p=0.2)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="370" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-30" edge="1" parent="1" source="zSBdwBAS_QDjj0wgPVzD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zSBdwBAS_QDjj0wgPVzD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF80;" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Fully Connected&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;256&lt;/font&gt;&lt;span style=&quot;font-family: Wingdings; text-indent: -24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;è&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="370" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="zSBdwBAS_QDjj0wgPVzD-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#00FF00;" value="&lt;font&gt;&lt;b&gt;EuroSAT Prediction&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;10 Classes&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="370" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
